@@ -20,7 +20,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-OPENROUTER_API_KEY = "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"
+from dotenv import load_dotenv
+load_dotenv()
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 FREE_MODEL = "openrouter/free"
 
