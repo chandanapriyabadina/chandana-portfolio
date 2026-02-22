@@ -5,10 +5,13 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
+import os
 import httpx
 import sqlite3
 import uuid
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 app = FastAPI()
 
