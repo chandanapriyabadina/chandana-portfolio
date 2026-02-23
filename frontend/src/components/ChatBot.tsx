@@ -57,7 +57,7 @@ export default function ChatBot({ onClose }: Props) {
     setLoading(true);
 
     try {
-      const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+      const backendUrl = "https://chandana-portfolio-zzce.onrender.com";
       const res = await fetch(`${backendUrl}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
