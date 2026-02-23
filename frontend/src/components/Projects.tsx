@@ -62,8 +62,8 @@ const projects = [
     highlights: ["AI Chat", "Cyberpunk UI", "Live on GitHub"],
     color: "cyan",
     year: "2025",
-    github: "https://github.com/chandanapriyabadina/portfolio",
-    live: "https://chandanapriyabadina.github.io/portfolio/",
+    github: "https://github.com/chandanapriyabadina/chandana-portfolio",
+    live: "https://cozy-lokum-8b6600.netlify.app",
   },
 ];
 
