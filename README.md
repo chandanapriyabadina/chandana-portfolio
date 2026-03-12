@@ -141,6 +141,3 @@ Update the fetch URL in `ChatBot.tsx` from `http://localhost:8000` to your tunne
 
 ---
 
-## 📝 Submission
-
-Submit via the form: [https://forms.gle/7AkdJbKDtj4chqqWA](https://forms.gle/7AkdJbKDtj4chqqWA)
